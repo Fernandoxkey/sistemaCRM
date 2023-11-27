@@ -1,0 +1,135 @@
+
+.menu {
+    background-color: #252525;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* Estilos para o funil de vendas e os cards de contato */
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(133, 131, 131);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #616360;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: #646160;
+}
+
+/* Estilos para o funil de vendas e os cards de contato */
+.funil-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.estagio {
+    flex: 1;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.estagio h2 {
+    text-align: center;
+}
+
+.contatos-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contato-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+/* Estilos para o botão Novo Contato */
+.novo-contato {
+    text-align: right;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+/* Estilos para o formulário de cadastro de contato */
+.cadastro-contato {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #95e4ee;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-contato h2 {
+    text-align: center;
+}
+
+.cadastro-contato label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cadastro-contato textarea,
+.cadastro-contato input[type="text"],
+.cadastro-contato input[type="email"],
+.cadastro-contato select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.info_section {
+    background-color: #252525;
+    text-align: right;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+
+.footer_section {
+    position: relative;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .footer_section p {
+    color: #252525;
+    padding: 10px 0;
+    margin: 0;
+  }
+  
+  .footer_section p a {
+    color: inherit;
+  }
+
+
